@@ -1,0 +1,126 @@
+/* Global */
+html,body{
+    overflow-x: hidden;
+}
+hr{
+    background: #F7F9F9;
+}
+body{
+    background: #F7F9F9;
+}
+.hvr-rectangle-in::before{
+    background: white !important;
+}
+.hvr-rectangle-in{
+    background: #F1C40F !important;
+    border-radius: 6px;
+}
+.hvr-rectangle-out{
+    background: white !important;
+}
+.hvr-rectangle-out::before{
+    background: #F1C40F !important;
+    border-radius: 6px;
+}
+/* Navbar */
+nav{
+    background: white !important;
+    height: 50px;;
+}
+.nav-link{
+    color: black !important;
+}
+.navbar-brand a{
+    color: black !important;
+    font-weight: bold;
+}
+.navbar-brand a:hover{
+    text-decoration: none;
+}
+/* Header Section */
+.heading-image{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1500027202745-eec1ad6523cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+.heading-title{
+    text-align: start;
+    background: #F1C40F;
+    max-height: 600px;
+    padding: 150px 10px;
+}
+.heading-title h2{
+    padding-top: 60px;
+    font-size: 25px;
+}
+.heading-title button{
+    margin-bottom: 50px;
+}
+/* Content Section */
+.content{
+    text-align: center;
+    margin-top: 40px;
+}
+.content h1{
+    font-size: 45px;
+}
+.content small{
+    font-size: 30px;
+}
+.card{
+    margin-top: 40px;
+}
+.card-body p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.img-1{
+    min-height: 300px;
+    margin-top: 20px;
+}
+#one{
+    background: url('https://images.unsplash.com/photo-1455734729978-db1ae4f687fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+    background-size: cover;
+    background-position: center;
+}
+#two{
+    background: url('https://images.unsplash.com/photo-1478809319988-35cad52fd89c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=625&q=80');
+    background-size: cover;
+    background-position: center;
+}
+#three{
+    background: url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=763&q=80');
+    background-size: cover;
+    background-position: center;
+}
+#four{
+    background: url('https://images.unsplash.com/photo-1500381692567-10b711044b5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=738&q=80');
+    background-size: cover;
+    background-position: center;
+}
+/* Contact Section */
+.contact{
+    background: #111111;
+    min-height: 350px;
+    margin-top: 20px;
+}
+.contact h1{
+    text-align: center;
+    padding-top: 50px;
+    color: #F7F9F9;
+}
+label{
+    color: #F7F9F9;
+}
+/* Footer */
+footer{
+    background: #111111;
+    text-align: center;
+    color: #F7F9F9;
+    font-size: 12px;
+}
+
+
+
+
